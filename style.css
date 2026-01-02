@@ -203,7 +203,7 @@ margin-left: 12px;
     color: white;
    background-color: purple;
    transition: 1.5s; 
-   family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 button:hover{
     color: rgb(103, 53, 0);
