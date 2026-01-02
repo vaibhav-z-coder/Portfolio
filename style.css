@@ -1,0 +1,326 @@
+/* ALL ABOUT FOOTER PART*/
+
+body{
+    background-color: rgba(0, 0, 0, 0.088);
+}
+.sub-footer{
+display: flex;
+justify-content:space-between;
+    padding: 40px;
+    margin-left: 12px;
+
+}
+footer{
+    
+    background-color: rgb(56, 41, 41);
+    color: white;
+   padding-bottom: 31px;
+    margin-top: 20%;
+    padding: -12px;
+    margin-left: -12px;
+    margin-right: -12px;
+    margin-bottom: -21px;
+}
+.top{
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 11px;
+    transition: 1s;
+}
+.top:hover{
+    text-decoration:underline;
+    color: burlywood;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 2s;
+}
+.bi{
+     display: inline-block;
+    margin-top: 11px;
+    cursor: pointer;
+    transition: 1s;
+
+}
+.bi:hover{
+    text-decoration:underline;
+    color: burlywood;
+    transition: 2s;
+   
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.bii{
+    color: rgb(239, 243, 56);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      border: 2px solid rgb(89, 130, 224);
+      border-bottom-left-radius: 12px;
+      border-bottom-right-radius: 12px;
+      border-top-right-radius: 12px;
+    padding: 9px;
+     cursor: pointer;
+     transition: 1s;
+}
+.bii:hover{
+    border: 2px solid rgb(10, 46, 96);
+color: rgb(54, 21, 84);
+background-color: blanchedalmond;
+cursor: pointer;
+transition: 2s;
+    
+}
+
+
+.bottom{
+    margin-left: 41%;
+    color: white;
+    padding: 30px;
+   
+}
+.hrr{
+    margin-left: 380px;
+    margin-right: 360px;
+}
+/*ALL ABOUT HEADER PART*/
+
+
+
+
+header{
+    display: flex;
+    justify-content:space-between;
+    padding: 30px;
+    background-color: rgb(56, 41, 41);
+    color: white;
+    margin: -11px;
+    /* position:sticky; */
+    top: 0;
+}
+.name{
+    color: rgb(50, 246, 152);
+   font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+}
+.name:hover{
+    color: rgba(229, 131, 180, 0.916);
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 120px;
+    margin-top: 30px;
+}
+li{
+    margin-left: 62px;
+     border: 1px solid gray;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 12px;
+    transition: 1.1s;
+
+}
+li:hover{
+    background-color:aliceblue;
+    color: blueviolet;
+    box-shadow: 2px 2px 3px gray;
+    transition: 1.2s;
+    
+}
+.fot1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.let{
+      margin-top: 25px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      margin-right: 12px;
+      box-shadow: 2px 3px 4px darkorchid;
+      border: 1px solid pink;
+      padding: 10px;
+      border-radius: 12px;
+    height: 20px;
+    transition: 1s;
+}
+.let:hover{
+    background-color: blueviolet;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px pink;
+    border: 2px solid orange;
+    transition: 2s;
+
+}
+/*Body of portfolio*/
+.image{
+    margin: 100px;
+    border: 4px solid black;
+    border-top-color: blue;
+    border-bottom-color: #f3b60fd8;
+    box-shadow: 4px 5px 8px rgb(7, 38, 62);
+    width: 600px;
+    transition: 2s;
+    border-bottom-left-radius: 100%;
+    border-top-right-radius: 100%;
+    background-color:palegreen;
+  
+}
+.image:hover{
+    background-color: rgb(224, 143, 156);
+    cursor: pointer;
+    border: 5px solid snow;
+    border-left-color: #9bfb00d8;
+    border-bottom-color: #f3b60fd8;
+        padding: 26px;
+    transition: 1s;
+    border-radius: 100%;
+      border-top-color: rgb(136, 4, 245);
+      box-shadow:13px 12px 12px rgb(44, 42, 47);
+    border-bottom-color: #3e2b10d8;
+}
+main{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+}
+.intro{
+    padding: 70px;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+.intro::selection{
+    color: rgb(11, 234, 234);
+    background-color: red;
+}
+button{
+    padding: 11px;
+    cursor: pointer;
+    border-radius: 30px;
+    box-shadow: 4px 4px 6px rgb(32, 218, 60);
+margin-left: 12px;
+    font-size: 17px;
+    color: white;
+   background-color: purple;
+   transition: 1.5s; 
+   family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+    color: rgb(103, 53, 0);
+    background-color: rgba(255, 255, 255, 0.822);
+    transition: 1s;
+    box-shadow:2px 5px 12px gray;
+
+}
+/*SHARP NEXT BODY STARTED*/
+.sharp-border{
+   border: 3px solid yellowgreen;
+  border-radius: 12px;
+    height: 100px;
+    animation: marq 2s step-end 1s infinite alternate;
+    animation-fill-mode: forwards;
+animation-timing-function: ease-in-out;
+box-shadow: 4px 4px 13px gray;
+transition: 3s;
+
+}
+.sharp-border:hover{
+    transition: linear;
+ background-color: rgb(167, 100, 0);
+ border-radius: 100px;
+ border-color: whitesmoke;
+ box-shadow: 4px 5px 12px rgb(184, 103, 16);
+    transition:2s;
+}
+marquee{
+margin-top: 30px;
+font-size: 40px;
+color: rgb(136, 4, 245);
+}
+marquee:hover{
+    color:cornflowerblue;
+    cursor: pointer;
+}
+nav{
+    display:flex;
+    gap: 40px;
+    margin-left: 24px;
+}
+.card{
+    background-color: rgb(130, 202, 142);
+    width: 30vw;
+    border: 1.7px solid gray;
+    box-shadow: 4px 4px 8px rgba(128, 128, 128, 0.763);
+    height: 50vh;
+    border-radius: 10%;
+    transition: 1.3s;
+
+}
+.card1{
+    background-color: slategrey;
+}
+.card2{
+    background-color:slateblue;
+}
+.card:hover{
+    transition: 2s;
+    background-color:skyblue;
+border: 2px solid rgb(22, 2, 53);
+box-shadow: 6px 6px 16px rgba(12, 10, 10, 0.421);
+}
+.card>img{
+    border-radius: 40px;
+    padding: 10px;
+    cursor: pointer;
+   
+}
+.para{
+    padding: 10px 0px 0px 25px;
+    font-size: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.puching-line{
+    margin: 40px 13px 0px 30px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+transition: 2s;
+font-style:oblique;
+}
+.puching-line:hover{
+color: navy;
+transition: 2s;
+border: 2px solid black;
+border-radius: 12px;
+padding: 10px;
+box-shadow: 5px 5px 9px rgb(46, 42, 42);
+}
+.heading{
+    font-size: 40px; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     margin-left: 40px;
+      border: 2px solid black; 
+      border-radius: 13px ;
+       padding: 20px;
+      width:340px;
+}
+
+.hr{
+margin-top: 100px;
+}
+.sec-marq{
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 14px;
+    margin-bottom: 19px;
+    background-color: bisque;
+    color: rgb(184, 103, 16);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.sec-marq:hover{
+    background-color: antiquewhite;
+    color: rgb(4, 93, 77);
+    text-decoration: none;
+}
+
+
