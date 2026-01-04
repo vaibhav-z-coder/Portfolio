@@ -82,7 +82,6 @@ transition: 2s;
 
 
 
-
 header{
     display: flex;
     justify-content:space-between;
@@ -139,42 +138,52 @@ li:hover{
       padding: 10px;
       border-radius: 12px;
     height: 20px;
-    transition: 1s;
+   
 }
 .let:hover{
-    background-color: blueviolet;
+    background: linear-gradient(25deg, darkorchid, rgb(68, 1, 102));
     cursor: pointer;
     box-shadow: 2px 2px 3px pink;
     border: 2px solid orange;
-    transition: 2s;
+    
 
 }
 /*Body of portfolio*/
+img{
+    transform: translateY(-50px);
+    transition: 2s;
+
+}
+img:hover{
+    transform: translateY(10px);
+    transform: scale(1.1);
+    transition: 2s;
+
+
+}
 .image{
     margin: 100px;
-    border: 4px solid black;
-    border-top-color: blue;
-    border-bottom-color: #f3b60fd8;
+
+
+
     box-shadow: 4px 5px 8px rgb(7, 38, 62);
     width: 600px;
     transition: 2s;
-    border-bottom-left-radius: 100%;
-    border-top-right-radius: 100%;
-    background-color:palegreen;
-  
+background: linear-gradient(90deg, pink, rgb(198, 35, 62)); 
+border-radius: 30%; 
 }
 .image:hover{
-    background-color: rgb(224, 143, 156);
+background: linear-gradient(90deg, rgba(186, 74, 74, 0.796), rgb(234, 0, 39));
     cursor: pointer;
-    border: 5px solid snow;
-    border-left-color: #9bfb00d8;
-    border-bottom-color: #f3b60fd8;
+
         padding: 26px;
+    transform: translateY(-30px);
+
+        border-bottom: 30px soild red;
     transition: 1s;
     border-radius: 100%;
-      border-top-color: rgb(136, 4, 245);
       box-shadow:13px 12px 12px rgb(44, 42, 47);
-    border-bottom-color: #3e2b10d8;
+
 }
 main{
     display: grid;
@@ -214,31 +223,31 @@ button:hover{
 }
 /*SHARP NEXT BODY STARTED*/
 .sharp-border{
-   border: 3px solid yellowgreen;
-  border-radius: 12px;
+   border: 3px solid rgb(235, 95, 1);
+  border-radius: 9px;
     height: 100px;
     animation: marq 2s step-end 1s infinite alternate;
     animation-fill-mode: forwards;
 animation-timing-function: ease-in-out;
-box-shadow: 4px 4px 13px gray;
+box-shadow: 4px 4px 13px rgba(25, 23, 23, 0.715);
 transition: 3s;
 
 }
 .sharp-border:hover{
     transition: linear;
- background-color: rgb(167, 100, 0);
+ background-color: rgb(0, 153, 167);
  border-radius: 100px;
- border-color: whitesmoke;
+ border-color: rgb(201, 31, 31);
  box-shadow: 4px 5px 12px rgb(184, 103, 16);
     transition:2s;
 }
 marquee{
 margin-top: 30px;
 font-size: 40px;
-color: rgb(136, 4, 245);
+color: rgb(236, 102, 0);
 }
 marquee:hover{
-    color:cornflowerblue;
+    color:rgb(11, 36, 2);
     cursor: pointer;
 }
 nav{
@@ -247,17 +256,18 @@ nav{
     margin-left: 24px;
 }
 .card{
-    background-color: rgb(130, 202, 142);
+    background-color: rgb(67, 194, 88);
     width: 30vw;
     border: 1.7px solid gray;
+    padding-top: 50px;
     box-shadow: 4px 4px 8px rgba(128, 128, 128, 0.763);
-    height: 50vh;
+    height: 55vh;
     border-radius: 10%;
     transition: 1.3s;
 
 }
 .card1{
-    background-color: slategrey;
+    background-color: rgb(109, 148, 187);
 }
 .card2{
     background-color:slateblue;
@@ -276,51 +286,156 @@ box-shadow: 6px 6px 16px rgba(12, 10, 10, 0.421);
 }
 .para{
     padding: 10px 0px 0px 25px;
-    font-size: 21px;
+    font-size: 19px;
+   margin-top: -20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
 }
 .puching-line{
-    margin: 40px 13px 0px 30px;
+    margin: 40px 13px 100px 30px;
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 transition: 2s;
 font-style:oblique;
 }
-.puching-line:hover{
-color: navy;
-transition: 2s;
-border: 2px solid black;
-border-radius: 12px;
-padding: 10px;
-box-shadow: 5px 5px 9px rgb(46, 42, 42);
-}
+
 .heading{
     font-size: 40px; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-     margin-left: 40px;
-      border: 2px solid black; 
-      border-radius: 13px ;
+     margin-left: 540px;
+      
        padding: 20px;
       width:340px;
 }
-
-.hr{
-margin-top: 100px;
+.second-para{
+ width:100vw;
+    height:100vh;  
+    margin-bottom: 100px;
+    margin: 0px -12px 0px -12px;
+    margin-bottom: 60px;
+    box-shadow: 3px 10px 10px gray ;
+    transition: 3s;
+    border-radius: 30px;
 }
-.sec-marq{
-    border: 2px solid black;
-    padding: 20px;
-    border-radius: 14px;
-    margin-bottom: 19px;
-    background-color: bisque;
-    color: rgb(184, 103, 16);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.second-para:hover{
+background: linear-gradient(95deg,rgba(78, 195, 160, 0.883),rgba(11, 230, 241, 0.897));
+transition: 2s;
+transform: translateY(40px);
+}
+
+.third-para
+{
+    border-radius: 30px;
+    width:100vw;
+    height:130vh;  
+    margin-bottom: 100px;
+    margin: 0px -12px 0px -12px;
+    background-color: rgb(209, 139, 139);
+}
+
+/*Second Paragraph*/
+.about{
+    font-size: 50px;
+    padding: 30px;
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.paragraph{
+font-size: 30px;
+padding: 30px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tech{
+    font-size: 20px;
+    padding: 30px;
+    width: 400px;
+    transition: 800ms;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tech:hover{
+    background-color: rgb(247, 247, 247);
+color: olive;
+    width: 600px;
+   padding: 30px;
+    height:270px;
+    font-family:sans-serif;
+   cursor: pointer;
+box-shadow: 6px 9px 1cqb rgba(163, 152, 152, 0.603);
+
+transition: 1s;
+transform: translate(50px,10px);
+font-size: 35px;
+border-radius: 30px;
+}
+
+.current-learn{
+     font-size: 20px;
+    width: 400px;
+
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 800ms;
+   cursor: pointer;
 
 }
-.sec-marq:hover{
-    background-color: antiquewhite;
-    color: rgb(4, 93, 77);
+.current-learn:hover{
+    background-color: rgb(247, 247, 247);
+color: olive;
+    width: 800px;
+   padding: 30px;
+
+    height:200px;
+    font-family:sans-serif;
+
+box-shadow: 6px 9px 1cqb rgba(163, 152, 152, 0.603);
+
+transition: 1s;
+transform: translateX(200px);
+font-size: 35px;
+border-radius: 30px;
+}
+.project{
+    font-size: 20px;
+    width: 900px;
+
+    margin-left: 30px;
+    transition: 900ms;
+   cursor: pointer;
+
+}
+
+
+.project:hover{
+background-color: rgb(247, 247, 247);
+color: olive;
+    width: 1000px;
+   padding: 30px;
+    height:410px;
+    font-family:sans-serif;
+
+transition: 1s;
+transform: translateX(100px);
+font-size: 35px;
+border-radius: 30px;
+box-shadow: 6px 9px 1cqb rgba(163, 152, 152, 0.603);
+
+}
+a{
+
+
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 1100px;
+    border-radius: 12px;
     text-decoration: none;
+    padding: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 270px;
+background: linear-gradient(45deg, red, pink);
+    color: black;
+    margin-top: 12px;
 }
-
-
+html{
+    scroll-behavior: smooth;
+}
