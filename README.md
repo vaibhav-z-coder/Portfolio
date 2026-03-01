@@ -8,7 +8,7 @@ This is my personal portfolio showcasing my UI/UX design skills and frontend dev
 
 ## 👨‍💻 About Me
 
-Hi, I’m **Vaibhav Singh** — a Web Designer with a passion for creating clean, responsive, and user-friendly websites.
+Hi, I’m **Vaibhav Singh** —a Web Designer with a passion for creating clean, responsive, and user-friendly websites.
 
 **Role:** UI/UX Designer  
 **Focus:** Frontend design, rapid prototyping, responsive layouts  
