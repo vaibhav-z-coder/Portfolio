@@ -1,8 +1,12 @@
 
 /* ALL ABOUT FOOTER PART*/
+*{
+padding:0;
+margin:0;
+}
 
 body{
-    background-color: rgba(0, 0, 0, 0.088);
+    background-color: yellow;
 }
 .sub-footer{
 display: flex;
