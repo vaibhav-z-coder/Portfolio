@@ -3,10 +3,7 @@
 🔗 **Live Website:** https://portfolio-nu-ten-73.vercel.app
 
 This is my personal portfolio showcasing my UI/UX design skills and frontend development work. It highlights my major projects, technical skills, and experience building responsive landing pages and clone sites.
-
-
 ---
-
 ## 👨‍💻 About Me
 
 Hi, I’m **Vaibhav Singh** —a Web Designer with a passion for creating clean, responsive, and user-friendly websites.
